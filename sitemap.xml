@@ -1,28 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://kwenzh.github.io/</loc>
-    <lastmod>2024-02-28T17:24:14+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/blog/</loc>
-    <lastmod>2024-02-28T17:24:14+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/my-new-post/</loc>
-    <lastmod>2024-02-28T17:24:14+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/page2/</loc>
-    <lastmod>2024-02-28T17:15:02+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/page2/ntp/</loc>
-    <lastmod>2024-02-28T17:15:02+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/test/</loc>
-    <lastmod>2024-02-28T16:07:53+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</loc>
-    <lastmod>2024-02-28T15:59:38+08:00</lastmod>
-  </url><url>
-    <loc>https://kwenzh.github.io/my-new-page/</loc>
-  </url>
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://kwenzh.github.io/posts/2024-02-28-test_post/</loc><lastmod>2024-02-28T21:59:29&#43;08:00</lastmod></url><url>
+            <loc>https://kwenzh.github.io/</loc><lastmod>2024-02-28T21:59:29&#43;08:00</lastmod></url><url>
+            <loc>https://kwenzh.github.io/posts/</loc><lastmod>2024-02-28T21:59:29&#43;08:00</lastmod></url><url>
+            <loc>https://kwenzh.github.io/posts/fist_post/</loc><lastmod>2024-02-28T21:50:25&#43;08:00</lastmod></url><url>
+            <loc>https://kwenzh.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod></url><url>
+            <loc>https://kwenzh.github.io/categories/</loc></url><url>
+            <loc>https://kwenzh.github.io/categories/documentation/</loc></url><url>
+            <loc>https://kwenzh.github.io/tags/</loc></url><url>
+            <loc>https://kwenzh.github.io/tags/content/_index.zh-cn/</loc></url><url>
+            <loc>https://kwenzh.github.io/tags/installation/_index.zh-cn/</loc></url><url>
+            <loc>https://kwenzh.github.io/tags/configuration/_index.zh-cn/</loc></url></urlset>

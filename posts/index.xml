@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>kwen hugo</title>
-        <link>https://kwenzh.github.io/</link>
-        <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</lastBuildDate>
-            <atom:link href="https://kwenzh.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - kwen hugo</title>
+        <link>https://kwenzh.github.io/posts/</link>
+        <description>All Posts | kwen hugo</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</lastBuildDate><atom:link href="https://kwenzh.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>2024 02 28 Test_post</title>
     <link>https://kwenzh.github.io/posts/2024-02-28-test_post/</link>
     <pubDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</pubDate>
