@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://127.0.0.1:1313/blog/</loc>
+    <loc>https://kwenzh.github.io/blog/</loc>
     <lastmod>2024-02-28T17:24:14+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/</loc>
+    <loc>https://kwenzh.github.io/</loc>
     <lastmod>2024-02-28T17:24:14+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/my-new-post/</loc>
+    <loc>https://kwenzh.github.io/my-new-post/</loc>
     <lastmod>2024-02-28T17:24:14+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/page2/</loc>
+    <loc>https://kwenzh.github.io/page2/</loc>
     <lastmod>2024-02-28T17:15:02+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/page2/ntp/</loc>
+    <loc>https://kwenzh.github.io/page2/ntp/</loc>
     <lastmod>2024-02-28T17:15:02+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/test/</loc>
+    <loc>https://kwenzh.github.io/test/</loc>
     <lastmod>2024-02-28T16:07:53+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</loc>
+    <loc>https://kwenzh.github.io/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</loc>
     <lastmod>2024-02-28T15:59:38+08:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1313/my-new-page/</loc>
+    <loc>https://kwenzh.github.io/my-new-page/</loc>
   </url>
 </urlset>

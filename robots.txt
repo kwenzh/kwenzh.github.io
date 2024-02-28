@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://127.0.0.1:1313/sitemap.xml
+Sitemap: https://kwenzh.github.io/sitemap.xml

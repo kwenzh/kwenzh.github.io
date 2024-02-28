@@ -5,7 +5,7 @@
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://127.0.0.1:1313/images/favicon.png" />
+<link rel="shortcut icon" href="https://kwenzh.github.io/images/favicon.png" />
 <title>NTP反射攻击 | Hugo ʕ•ᴥ•ʔ Bear Blog kwen</title>
 <meta name="title" content="NTP反射攻击" />
 <meta name="description" content="描述： NTP放大攻击（NTP Amplification Attack）是一种利用NTP（Network Time Protocol）服务器的放大效应来发起大规模的DDoS（分布式拒绝服务）攻击的方法。攻击者通过伪造源IP地址向NTP服务器发送小型的查询请求，然后服务器会以更大的响应数据包回复给被伪造的源IP地址，从而放大了流量，最终导致目标网络或服务器的带宽耗尽，无法正常提供服务。
@@ -33,7 +33,7 @@ NTP放大攻击利用了NTP服务器的特性，即可以通过单个查询请�
 禁用Monlist命令 disable monitor 过滤源IP地址：通过过滤源IP地址，限制只允许合法的IP地址访问NTP服务器 123端口 更新NTP软件：及时更新NTP软件以修复已知的漏洞 升级NTP服务器版本到4.2.7p26。 流量清洗服务 攻击示例： 扫描服务端是否开放123 端口 是否开启monlist功能 伪造源ip进行攻击 from scapy.all import * send(IP(src=&#39;src-ip&#39;, dst=&#39;dst-ip&#39;)/UDP(sport=52816)/NTP(version=2, mode=7, stratum=0, poll=3, precision=42) 其中：
 send()：这是Scapy库中的函数，用于发送构造好的数据包。 IP(src=&#39;, dst=&#39;&#39;)：这是Scapy库中的IP类，用于构造IP头部。src参数指定源IP地址为&#39;&#39;，dst参数指定目标IP地址为&#39;&#39;。 UDP(sport=52816)：这是Scapy库中的UDP类，用于构造UDP头部。sport参数指定源端口号为52816。 NTP(version=2, mode=7, stratum=0, poll=3, precision=42)：这是Scapy库中的NTP类，用于构造NTP数据。version参数指定NTP版本为2，mode参数指定NTP模式为7（Monlist模式），stratum参数指定层级为0，poll参数指定轮询间隔为3，precision参数指定精度为42。 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://127.0.0.1:1313/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/" /><meta property="og:image" content="http://127.0.0.1:1313/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://kwenzh.github.io/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/" /><meta property="og:image" content="https://kwenzh.github.io/images/share.png"/><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2024-02-28T15:59:38+08:00" />
 <meta property="article:modified_time" content="2024-02-28T15:59:38+08:00" /><meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear" />
 
@@ -41,7 +41,7 @@ send()：这是Scapy库中的函数，用于发送构造好的数据包。 IP(sr
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://127.0.0.1:1313/images/share.png"/>
+<meta name="twitter:image" content="https://kwenzh.github.io/images/share.png"/>
 
 <meta name="twitter:title" content="NTP反射攻击"/>
 <meta name="twitter:description" content="描述： NTP放大攻击（NTP Amplification Attack）是一种利用NTP（Network Time Protocol）服务器的放大效应来发起大规模的DDoS（分布式拒绝服务）攻击的方法。攻击者通过伪造源IP地址向NTP服务器发送小型的查询请求，然后服务器会以更大的响应数据包回复给被伪造的源IP地址，从而放大了流量，最终导致目标网络或服务器的带宽耗尽，无法正常提供服务。
@@ -69,7 +69,7 @@ NTP放大攻击利用了NTP服务器的特性，即可以通过单个查询请�
 禁用Monlist命令 disable monitor 过滤源IP地址：通过过滤源IP地址，限制只允许合法的IP地址访问NTP服务器 123端口 更新NTP软件：及时更新NTP软件以修复已知的漏洞 升级NTP服务器版本到4.2.7p26。 流量清洗服务 攻击示例： 扫描服务端是否开放123 端口 是否开启monlist功能 伪造源ip进行攻击 from scapy.all import * send(IP(src=&#39;src-ip&#39;, dst=&#39;dst-ip&#39;)/UDP(sport=52816)/NTP(version=2, mode=7, stratum=0, poll=3, precision=42) 其中：
 send()：这是Scapy库中的函数，用于发送构造好的数据包。 IP(src=&#39;, dst=&#39;&#39;)：这是Scapy库中的IP类，用于构造IP头部。src参数指定源IP地址为&#39;&#39;，dst参数指定目标IP地址为&#39;&#39;。 UDP(sport=52816)：这是Scapy库中的UDP类，用于构造UDP头部。sport参数指定源端口号为52816。 NTP(version=2, mode=7, stratum=0, poll=3, precision=42)：这是Scapy库中的NTP类，用于构造NTP数据。version参数指定NTP版本为2，mode参数指定NTP模式为7（Monlist模式），stratum参数指定层级为0，poll参数指定轮询间隔为3，precision参数指定精度为42。 "><meta itemprop="datePublished" content="2024-02-28T15:59:38+08:00" />
 <meta itemprop="dateModified" content="2024-02-28T15:59:38+08:00" />
-<meta itemprop="wordCount" content="54"><meta itemprop="image" content="http://127.0.0.1:1313/images/share.png"/>
+<meta itemprop="wordCount" content="54"><meta itemprop="image" content="https://kwenzh.github.io/images/share.png"/>
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
