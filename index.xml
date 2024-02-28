@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo ʕ•ᴥ•ʔ Bear33 on Hugo ʕ•ᴥ•ʔ Bear Blog kwen</title>
+    <link>http://127.0.0.1:1313/</link>
+    <description>Recent content in Hugo ʕ•ᴥ•ʔ Bear33 on Hugo ʕ•ᴥ•ʔ Bear Blog kwen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2020, Jane Doe.</copyright>
+    <lastBuildDate>Wed, 28 Feb 2024 17:24:14 +0800</lastBuildDate><atom:link href="http://127.0.0.1:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My New Post</title>
+      <link>http://127.0.0.1:1313/my-new-post/</link>
+      <pubDate>Wed, 28 Feb 2024 17:24:14 +0800</pubDate>
+      
+      <guid>http://127.0.0.1:1313/my-new-post/</guid>
+      <description>This is a page aboufft »My New Post«.</description>
+    </item>
+    
+    <item>
+      <title>Ntp</title>
+      <link>http://127.0.0.1:1313/page2/ntp/</link>
+      <pubDate>Wed, 28 Feb 2024 17:15:02 +0800</pubDate>
+      
+      <guid>http://127.0.0.1:1313/page2/ntp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://127.0.0.1:1313/test/</link>
+      <pubDate>Wed, 28 Feb 2024 16:07:53 +0800</pubDate>
+      
+      <guid>http://127.0.0.1:1313/test/</guid>
+      <description>33333 </description>
+    </item>
+    
+    <item>
+      <title>NTP反射攻击</title>
+      <link>http://127.0.0.1:1313/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</link>
+      <pubDate>Wed, 28 Feb 2024 15:59:38 +0800</pubDate>
+      
+      <guid>http://127.0.0.1:1313/ntp%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</guid>
+      <description>描述： NTP放大攻击（NTP Amplification Attack）是一种利用NTP（Network Time Protocol）服务器的放大效应来发起大规模的DDoS（分布式拒绝服务）攻击的方法。攻击者通过伪造源IP地址向NTP服务器发送小型的查询请求，然后服务器会以更大的响应数据包回复给被伪造的源IP地址，从而放大了流量，最终导致目标网络或服务器的带宽耗尽，无法正常提供服务。
+攻击原理： 利用ntp服务响应远程monlist请求，返回与ntp服务器交互的所有设备列表，某些情况下，会有600个客户端设备列表
+upd协议 攻击者伪造源ip地址请求monlist，源ip即是攻击的目标
+ntp服务器将返回非常大的响应，连接到ntp服务器的同步客户端越多，造成的流量放大更高 满足2个条件 ● 用于执行攻击的协议不验证请求源 ● 来自所使用的网络功能的响应应该显着大于用于请求它的请求。 NTP放大攻击的特点包括：
+攻击者可以通过伪造源IP地址来隐藏自己的真实身份，增加攻击的匿名性。
+攻击者只需发送少量的查询请求，就能够获得大量的响应数据，从而放大了攻击流量。
+NTP放大攻击利用了NTP服务器的特性，即可以通过单个查询请求获得大量的响应数据，从而放大了攻击效果。
+为了防止NTP放大攻击，可以采取以下防护手段：
+禁用Monlist命令 disable monitor 过滤源IP地址：通过过滤源IP地址，限制只允许合法的IP地址访问NTP服务器 123端口 更新NTP软件：及时更新NTP软件以修复已知的漏洞 升级NTP服务器版本到4.2.7p26。 流量清洗服务 攻击示例： 扫描服务端是否开放123 端口 是否开启monlist功能 伪造源ip进行攻击 from scapy.all import * send(IP(src=&amp;#39;src-ip&amp;#39;, dst=&amp;#39;dst-ip&amp;#39;)/UDP(sport=52816)/NTP(version=2, mode=7, stratum=0, poll=3, precision=42) 其中：
+send()：这是Scapy库中的函数，用于发送构造好的数据包。 IP(src=&amp;#39;, dst=&amp;#39;&amp;#39;)：这是Scapy库中的IP类，用于构造IP头部。src参数指定源IP地址为&amp;#39;&amp;#39;，dst参数指定目标IP地址为&amp;#39;&amp;#39;。 UDP(sport=52816)：这是Scapy库中的UDP类，用于构造UDP头部。sport参数指定源端口号为52816。 NTP(version=2, mode=7, stratum=0, poll=3, precision=42)：这是Scapy库中的NTP类，用于构造NTP数据。version参数指定NTP版本为2，mode参数指定NTP模式为7（Monlist模式），stratum参数指定层级为0，poll参数指定轮询间隔为3，precision参数指定精度为42。 </description>
+    </item>
+    
+    <item>
+      <title>my new page</title>
+      <link>http://127.0.0.1:1313/my-new-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/my-new-page/</guid>
+      <description>Bear Website: https://bearblog.dev
+There is a website obesity crisis. Bloated websites are full of scripts, ads, and trackers slowing your readers down every time they try to read your well-crafted content.
+Bear is all you need to build a fantastic and optimized site or blog. It works perfectly on any viewing device. All you need to focus on is writing good content.
+Bear makes it simple to publish content online and grow an audience while keeping pages tiny, fast, and optimized for search engines.</description>
+    </item>
+    
+  </channel>
+</rss>
