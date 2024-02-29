@@ -3,21 +3,30 @@
         <title>All Posts - kwen hugo</title>
         <link>https://kwenzh.github.io/posts/</link>
         <description>All Posts | kwen hugo</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</lastBuildDate><atom:link href="https://kwenzh.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>2024 02 28 Test_post</title>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yukunzhang29@hotmail.com (kwen zh)</managingEditor>
+            <webMaster>yukunzhang29@hotmail.com (kwen zh)</webMaster><lastBuildDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</lastBuildDate><atom:link href="https://kwenzh.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Golang自定义error采坑</title>
+    <link>https://kwenzh.github.io/posts/02-29-test/</link>
+    <pubDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</pubDate>
+    <author>kwen zh</author>
+    <guid>https://kwenzh.github.io/posts/02-29-test/</guid>
+    <description><![CDATA[描述 自定义一个实现 error的类型，返回赋值给error :interface{}， 判断 err ！= nil 成立，但是使用是空指针。 type kwen_error struct { msg string code int } func (k]]></description>
+</item>
+<item>
+    <title>Shell反弹攻击</title>
     <link>https://kwenzh.github.io/posts/2024-02-28-test_post/</link>
     <pubDate>Wed, 28 Feb 2024 21:59:29 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>kwen zh</author>
     <guid>https://kwenzh.github.io/posts/2024-02-28-test_post/</guid>
-    <description><![CDATA[测试notedd]]></description>
+    <description><![CDATA[描述 在一台内网通外网的机器发现，没有限制出网策略，被外部注入反弹拿下了主机 验证复现 攻击者在互联网上的一台计算机上启动一个监听程序，通常使用诸]]></description>
 </item>
 <item>
     <title>NTP放大攻击</title>
     <link>https://kwenzh.github.io/posts/fist_post/</link>
     <pubDate>Wed, 28 Feb 2024 21:50:25 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>kwen zh</author>
     <guid>https://kwenzh.github.io/posts/fist_post/</guid>
-    <description><![CDATA[NTP放大攻击 描述： NTP放大攻击（NTP Amplification Attack）是一种利用NTP（Network Time Protocol）服务器的放大效应来发起大规模的]]></description>
+    <description><![CDATA[NTP放大攻击 来自一次线上的服务被ddos，机房封了ip，反馈有5Gbps流量多，平时正常也就不到1Gbps的流量，后面根据机房日志看，源端]]></description>
 </item>
 </channel>
 </rss>
